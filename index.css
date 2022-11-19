@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(72, 111, 13);
+}
+
+.legend1 {
+  margin-bottom: 20px;
+}
+
+.second {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.block {
+  border-width: 3px;
+  border-style: solid;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: right;
+  border-radius: 20px;
+  border-color: rgb(210, 189, 47);
+  margin: 30%;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.firstname,
+.lastname,
+.age,
+.dob,
+.emailClass {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.gender {
+  padding-top: 10px;
+}

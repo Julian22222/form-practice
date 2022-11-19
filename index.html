@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 style="color: rgb(247, 242, 242)" id="title" style="text-align: center">
+        Fill registration form to win free holiday tickets!
+      </h1>
+    </header>
+    <form class="block" action="./picture.html" method="get" id="signup-form">
+        
+          <legend class="legend1" style="color: rgb(247, 242, 242)">
+            Please fill all required fields.
+          </legend>
+
+        <!-- FIRST NAME -->
+            <label style="color: rgb(244, 233, 233)" for="firstName"
+              >Name: </label>
+            <input placeholder="Insert your name" required class="firstname" type="text" id="firstName" /><br>
+            <p id="First name"></p>
+        <!-- LAST NAME -->
+            <label style="color: rgb(244, 233, 233)" for="lastName"
+              >Last name:
+            </label>
+            <input placeholder="Insert your last name" required class="lastname" type="text" id="lastName" /><br>
+        <!-- AGE -->
+            <label style="color: rgb(244, 233, 233)" for="age"
+            >Age: </label>
+          <input placeholder="Age" required class="age" type="number" id="age" min="1" max="100" /><br>
+        <!-- DATE OF BIRTH -->
+          <label style="color: rgb(244, 233, 233)" for="dob"
+          >Date of birth: </label>
+        <input placeholder="Insert your DOB" required class="dob" type="date" id="dob" min="1930-01-01" /><br>
+        <!-- GENDER -->
+            <label style="color: rgb(244, 233, 233)" for="gender">Gender: </label>
+            <select name="gender" id="gender">
+              <option value="---">---</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select><br>
+        <!-- EMAIL -->
+          <div>
+            <label style="color: rgb(244, 233, 233)" for="email">Email: </label>
+            <input placeholder="Insert your email" required class="emailClass" type="email" id="email" />
+          </div>
+        <!-- QUERRY -->
+          <div>
+            <div class="second">
+            <legend style="color: rgb(247, 242, 242)">
+              What is your favorite place to stay?
+            </legend>
+          </div>
+            <div>
+              <label style="color: rgb(244, 233, 233)" for="coast">Coast</label>
+              <input type="checkbox" name="coast" id="coast">
+            </div>
+            <div>
+              <label style="color: rgb(244, 233, 233)" for="forest">Forest</label>
+              <input type="checkbox" name="forest" id="forest">
+            </div>
+            <div>
+              <label style="color: rgb(244, 233, 233)" for="lake">Lake</label>
+              <input type="checkbox" name="lake" id="lake">
+            </div>
+            <div>
+              <label style="color: rgb(244, 233, 233)" for="other">Other</label>
+              <input type="checkbox" name="other" id="other">
+            </div>
+          
+
+
+          </form>
+        <!-- BUTTONS -->
+<div >
+          <button class="button2" type="reset">reset</button>
+          <button class="button1" id="submitBtn" type="submit">submit</button>
+        </div>
+        </div>
+      </div>
+    </div>
+   
+  </body>
+</html>
